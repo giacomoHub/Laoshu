@@ -8,7 +8,7 @@ This game celebrates the Chinese year of the rat.
 ---
 
 ### HOW TO PLAY
-The “display” is made of a 5*5 matrix of LEDs, the player will be able to move the mouse (one led) in the 3*3 matrix at the centre of the display. 
+The “display” is made of a 5x5 matrix of LEDs, the player will be able to move the mouse (one led) in the 3x3 matrix at the centre of the display. 
 
 The Aim of the game is to survive as long as possible before being hit from one of the laser coming from the edges of the display. Some LEDs at the edges will turn on, signalling the player where the laser is going to appear. The player will have to move from the path of the laser before it turns on. More lasers will appear after the player has reached a certain score, making the game more difficult. If the player gets hit by a laser the game ends showing the player his score.
 
@@ -21,7 +21,7 @@ The controls are simple, the player utilises the buttons “A” and “B” to 
 ---
 
 ### ADDITIONAL FEATURES
-Once the game turns on, it will show a “Title Screen” and the name of the game will scroll through the display. After that the game will start. Once the player loses, a score will be shown to the player, soon after the game will restart (without showing the title screen) to give a fast and clean user experience and replayability.
+Once the game turns on, it will show a “Title Screen” and the name of the game will scroll through the display. After that the game will start. Once the player loses, a score will be shown to the player and soon after the game will restart (without showing the title screen) to give a fast and clean user experience and replayability.
 
 On the technical aspect this game makes use of the Micro:Bit ability to use fibers. Each "laser" is in fact controlled separately and is not linked to each other. This allows for greated concurrency and management. The game also makes use of the GREYSCALE capability of the LEDs that show 256 levels of brightness.
 
